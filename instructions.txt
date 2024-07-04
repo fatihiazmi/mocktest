@@ -20,4 +20,9 @@ Question 4: 1 - kubectl describe nodes controlplane
             1 - kubectl get pods -n kube-system | grep kube-scheduler
             2 - kubectl logs -n kube-system kube-scheduler-controlplane
 
-Question 5: 1 - 
+Question 5: 1 - nano nginx.yaml
+            2 - kubectl apply -f nginx.yaml
+
+Question 6: 1 - nano alpine.yaml
+            2 - kubectl apply -f alpine.yaml
+            3 - kubectl logs -n qq2 -f alpine
