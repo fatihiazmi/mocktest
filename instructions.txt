@@ -14,3 +14,10 @@ Question 3: 1 - kubectl create namespace qq2
             5 - kubectl apply -f podpvc.yaml
             6 - nano pod.yaml
             7 - kubectl apply -f pod.yaml
+
+Question 4: 1 - kubectl describe nodes controlplane
+
+            1 - kubectl get pods -n kube-system | grep kube-scheduler
+            2 - kubectl logs -n kube-system kube-scheduler-controlplane
+
+Question 5: 1 - 
